@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* --------header section styles----------- */
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../assets/images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-contain {
+    padding: 250px 250px 150px 200px;
+    text-align: center;
+}
+
+.banner-title {
+    color: #ffff;
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.banner-description {
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.btn-primary {
+    color: #ffff;
+    background-color: rgb(255, 96, 96);
+    font-size: 18px;
+    font-weight: 550;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ---------------donate today section styles-------------- */
+.donate-today {
+    padding: 80px 250px 0px 250px;
+    text-align: center;
+}
+
+.primary-title {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.primary-description {
+    color: #4f4f4f;
+    font-size: 20px;
+    font-weight: 450;
+    padding-bottom: 25px;
+}
+
+/* ----------------donate amount styles---------------------- */
+.donate-amount {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 70px;
+
+}
+
+.amount-contain {
+    color: #000;
+    background-color: rgb(247, 243, 239);
+    padding: 50px 40px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.amount-contain-highlight {
+    color: rgb(255, 71, 71);
+    background-color: rgb(255, 228, 228);
+    padding: 50px 40px;
+    border: 2.5px solid rgb(255, 80, 80);
+    border-radius: 5px;
+}
+
+.amount {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.taka-description {
+    color: #a3a3a3;
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+hr.line {
+    border: 0.5px solid #cfcfcf;
+    margin-bottom: 35px;
+}
+
+/* --------------donate plan styles--------------- */
+.donate-plan {
+    padding-bottom: 50px;
+}
+
+.donate-plan-contain {
+    padding: 80px 250px 0px 250px;
+    text-align: center;
+}
+
+.plan-area {
+    display: flex;
+    padding: 15px 120px 0px 120px;
+    gap: 20px;
+
+}
+
+.plan-contain1 {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(230, 245, 245);
+    padding: 50px 25px 0px 20px;
+    border-radius: 5px;
+}
+
+.plan-contain2 {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(254, 229, 229);
+    padding: 50px 25px 0px 20px;
+    border-radius: 5px;
+}
+
+.plan-contain3 {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(255, 233, 199);
+    padding: 50px 25px 0px 20px;
+    border-radius: 5px;
+}
+
+.plan-contain1 img {
+    padding-bottom: 30px;
+}
+
+.plan-contain2 img {
+    padding-bottom: 30px;
+}
+
+.plan-contain3 img {
+    padding-bottom: 30px;
+}
+
+.plan-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500px;
+    padding-bottom: 30px;
+}
+
+/* --------------lives section styles--------------- */
+.lives-container {
+    display: flex;
+    padding: 40px 220px 20px 120px;
+    gap: 10px;
+}
+
+.lives-container img {
+    width: 520px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.lives-contain {
+    padding: 30px 80px 80px 20px;
+}
+
+/* -----------------survive section styles-------------- */
+.survive-container {
+    display: flex;
+    padding: 40px 220px 40px 120px;
+    gap: 10px;
+}
+
+.survive-container img {
+    width: 520px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.survive-contain {
+    padding: 30px 30px 80px 80px;
+}
+
+/* -----------------updates section styles-------------- */
+.updates {
+    padding: 30px 350px 50px 350px;
+    text-align: center;
+}
+
+.box {
+    background-color: rgb(255, 233, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.form-box {
+    background-color: #bcbcbc;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.form-box input {
+    color: #383838;
+    background-color: #bcbcbc;
+    font-size: 17px;
+    font-weight: 550;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-box button {
+    color: #ffffff;
+    background-color: #ff3c3c;
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 17px 25px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-box button:hover {
+    background-color: #ff0000;
+}
+
+/* -----------------footer section styles-------------- */
+.footer-section {
+    background: #0B0D17;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+.footer-title {
+    color: #FF5959;
+    font-family: Lobster;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 20px 10px;
+}
+
+.copyright {
+    color: #ffd5d5;
+    font-size: 13px;
+    font-weight: 450;
+    padding: 10px;
+}
