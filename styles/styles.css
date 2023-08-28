@@ -265,3 +265,21 @@ hr.line {
     font-weight: 450;
     padding: 10px;
 }
+/* responsive styles */
+@media screen and (max-width: 576px) {
+    
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+}
+
+
+
+
+
+
+.hide{
+    display: none;
+}
